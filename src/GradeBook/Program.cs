@@ -8,7 +8,7 @@ namespace GradeBook
         static void Main(string[] args)
         {
             //String concatenation
-            Console.WriteLine("Hello "+args[0]+" !");
+            Console.WriteLine($"Hello {args[0]} !");
         }
     }
 }
