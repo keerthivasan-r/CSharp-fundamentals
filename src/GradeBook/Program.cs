@@ -7,7 +7,7 @@ namespace GradeBook
         // pass params to application via array of strings
         static void Main(string[] args)
         {
-            //String concatenation
+            //String interpolation
             Console.WriteLine($"Hello {args[0]} !");
         }
     }
