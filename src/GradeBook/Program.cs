@@ -7,7 +7,8 @@ namespace GradeBook
         // pass params to application via array of strings
         static void Main(string[] args)
         {
-            //String interpolation
+           
+            if(args.Length > 0)
             Console.WriteLine($"Hello {args[0]} !");
         }
     }
