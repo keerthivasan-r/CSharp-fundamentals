@@ -9,6 +9,7 @@ namespace GradeBook
         static void Main(string[] args)
         {
             var book = new Book();
+            book.AddGrade(22.3);
             var result = 0.0;
             List<double> grades = new List<double>(){21.3,32.7};
             foreach(var number in grades){
