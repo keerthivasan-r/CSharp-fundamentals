@@ -13,7 +13,8 @@ namespace GradeBook
             foreach(var number in grades){
                 result += number;
             }
-            Console.WriteLine(result);
+            result /= grades.Count;
+            Console.WriteLine($"The average grade is {result}");
         }
     }
 }
