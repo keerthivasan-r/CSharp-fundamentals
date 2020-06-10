@@ -14,7 +14,7 @@ namespace GradeBook
                 result += number;
             }
             result /= grades.Count;
-            Console.WriteLine($"The average grade is {result}");
+            Console.WriteLine($"The average grade is {result:N2}");
         }
     }
 }
