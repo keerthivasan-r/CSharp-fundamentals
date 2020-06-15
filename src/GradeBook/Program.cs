@@ -13,7 +13,7 @@ namespace GradeBook
             book.AddGrade(12.3);
             book.AddGrade(8.3);
             book.AddGrade(2.3);
-            book.showStatistics();
+            book.GetStatistics();
         }
     }
 }
