@@ -10,13 +10,10 @@ namespace GradeBook
         {
             var book = new Book("Keerthi's Gradebook");
             book.AddGrade(22.3);
-            var result = 0.0;
-            List<double> grades = new List<double>(){21.3,32.7};
-            foreach(var number in grades){
-                result += number;
-            }
-            result /= grades.Count;
-            Console.WriteLine($"The average grade is {result:N2}");
+            book.AddGrade(12.3);
+            book.AddGrade(8.3);
+            book.AddGrade(2.3);
+            book.showStatistics();
         }
     }
 }
